@@ -27,3 +27,8 @@ I created this application to document screws, nuts, spacers, rivets, and other 
 The application needs no installation, Node.js, Python, or internet connection. JSZip is bundled locally for `.spoj`, `.batch.spoj`, and ZIP support. A modern desktop browser is recommended.
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/Engineering-Documentation-Editor/releases)
+
+## Credits
+
+**Idea, concept and design:** FajkPes  
+**Coding:** ChatGPT Codex, Claude and Google Antigravity
