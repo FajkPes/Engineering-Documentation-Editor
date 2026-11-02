@@ -28,6 +28,35 @@ The application needs no installation, Node.js, Python, or internet connection. 
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/Engineering-Documentation-Editor/releases)
 
+## Basic workflow
+
+1. Load one or more product photos in the left panel, or import an existing `.spoj` project.
+2. Crop and align the front, side, and top views.
+3. Enter the product name, ID, material, type, standard, and other properties.
+4. Calibrate the ruler against a real reference visible in the photo.
+5. Use **Measure**, **Wizard**, or **Calculator** as needed.
+6. Mark reviewed fields with the check controls.
+7. Export a JPG, editable `.spoj`, or a complete ZIP package.
+
+The built-in **Help** panel contains a more detailed walkthrough.
+
+## Reusing settings and templates
+
+- **`.spoj`** — imports a complete editable project, including its configuration and embedded images.
+- **`.batch.spoj`** — open **Presets**, then use **Import Batch .SPOJ** to load a set of reusable presets.
+- **Layout JSON** — open **Export / Import Layout**, select the sections you want, and import the layout file. Product values are not replaced unless the corresponding property sections are selected.
+- **JSON configuration** — use **Import Config** for a full configuration without embedded images.
+- **Template image** — load it in the template section and adjust its opacity to compare a photo with a reference outline.
+
+Personal/company templates and photographs are intentionally not included in the public release. They are not required to run the editor and may contain private or third-party material.
+
+## Data and safety notes
+
+- Work is kept in the current browser session until you export it. Save a `.spoj` project regularly.
+- A `.spoj`, `.batch.spoj`, or ZIP file is processed locally in the browser.
+- Import only files you trust and verify all calculated or parsed engineering values before using them in real documentation.
+- The mass calculator provides an estimate based on the entered geometry and density; it is not a substitute for measurement or engineering validation.
+
 ## Credits
 
 **Idea, concept and design:** FajkPes  
